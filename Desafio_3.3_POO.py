@@ -59,9 +59,4 @@ numero_destinatario = str(input("digite o numero do destinatario: "))
 duracao_chamada = float(input("digite a duracão da chamada(mins): "))    
 
 
-#plano_usuario = PlanoTelefone(nome_plano, saldo_inicial) 
-#usuario = UsuarioTelefone(nome_usuario, nome_plano) 
 UsuarioPrePago.fazer_chamada(numero_destinatario, duracao_chamada)
-#UsuarioTelefone.fazer_chamada(saldo_inicial, numero_destinatario)
-#Plano.deduzir_saldo(diferenca_saldo)
-#UsuarioPrePago.fazer_chamada(nome_usuario, numero_usuario, numero_destinatario, duracao_chamada, saldo_inicial)
